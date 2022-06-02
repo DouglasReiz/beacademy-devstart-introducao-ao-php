@@ -1,1 +1,9 @@
-<h1>Pagina nao encontrada</h1>
+<div class="s-erro">
+    <div class="container">
+    
+        
+    <img src="./assets/img/imperial-logo.svg" alt="imperio">
+
+    
+    </div>
+</div>

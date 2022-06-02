@@ -3,7 +3,8 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 4rem 0rem;
+    padding: 0rem 0rem;
+    margin-top: 6rem;
     
     z-index: 2022;
 }
@@ -14,10 +15,15 @@ header .container{
     align-items: center;
 }
 
+header .container .s-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 header .container img{
     max-width: 14rem;
 }
-
 
 .s-hero{
     background: url(../img/s-hero-bg.jpg);
@@ -29,7 +35,7 @@ header .container img{
 .s-hero .container{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -38,16 +44,20 @@ header .container img{
     align-items: center;
     width: 100%;
     max-width: 40.2rem;
-    margin-top: 24rem;
+    margin-top: 20rem;
     padding-bottom: 4.9rem;
 }
 
-.s-hero .container .p-text h2{
+.s-hero .container .p-text h3{
     font-weight: 400;
-    font-size: 2.3rem;
+    font-size: 3.3rem;
     line-height: 4rem;
     text-align: center;
-    color: rgba(0, 0, 0, 0.8);
+    color: var(--black-color);
+    border-style: groove;
+    border-color: var(--black-color);
+    border-radius: 4rem;
+    background-color: rgba(211, 211, 211, 0.5);
     margin-bottom: 2rem;
 
 }
@@ -58,6 +68,7 @@ header .container img{
     justify-content: space-between;
     gap: 1.6rem;
     margin-top: 2.3rem;
+    margin-bottom: 2.3rem;
 }
 .s-hero .container  .pontos img{
     transition: all 0.2s;
@@ -65,4 +76,147 @@ header .container img{
 
 .s-hero .container  .pontos img:hover{
     transform: translateY(-12%);
+}
+
+
+
+.s-login {
+    background: url(../img/s-login-bg-.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    padding-top: 14rem;
+    padding-bottom: 13rem;
+    
+}
+
+.s-login .login-top{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3.5rem;
+}
+
+.s-login .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.s-login .container .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+.s-login .container .menu .btn-access .btn-primary{
+    margin-right: 2rem;
+}
+
+.s-login .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-login .container .form-contact{
+    width:100%;
+    max-width: 48.6rem ;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3.1rem;
+}
+
+.s-login .container .form-login .input-group input[type="text"]{
+    margin-bottom: 3.1rem;
+    
+}
+
+.input-button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3.1rem;
+}
+
+.s-access .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-access .container .menu .btn-access{
+    margin-top: 2rem;
+}
+
+.s-access .container .menu .btn-access .btn-primary{
+    margin-right: 2rem;
+    
+}
+
+.s-cadastro{
+    background: url(../img/cadastro-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    padding-top: 14rem;
+    padding-bottom: 13rem;
+}
+
+.s-cadastro .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-cadastro .container .cadastro-top{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    width: 100%;
+    max-width: 34.3rem;
+}
+
+.s-cadastro .container .form-cadastro{
+    width:100%;
+    max-width: 48.6rem ;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap:3.1rem;
+}
+
+.s-cadastro .container .form-cadastro .input-group input[type="email"]{
+    margin-bottom: 3.1rem;
+    
+}
+
+.s-cadastro .container .form-cadastro .input-button .btn-primary{
+    border-style: groove;
+    border-width: 0.03rem;
+    border-color: var(--black-color);
+}
+
+.s-erro{
+    background: url(../img/404-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    padding-top: 14rem;
+    padding-bottom: 45rem;
+}
+
+.s-erro .container img{
+    background-color: rgba(255, 255, 255, 0.164);
+    border: 1rem;
+    border-radius: 4rem;
+    max-width: 14rem;
 }
