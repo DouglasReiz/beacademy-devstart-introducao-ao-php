@@ -6,7 +6,8 @@
                 <a class="btn-primary" href="/">Inicio</a>
                 <a class="btn-primary" href="/login">Login</a>
                 <a class="btn-primary" href="/cadastro">Cadastro</a>
-                <a class="btn-primary" href="/admin">Admin</a>
+                <a class="btn-primary" href="/listar">Listas</a>
+                <a class="btn-primary" href="/relatorio">relatorio</a>
             </div>
         </div>
     </div>

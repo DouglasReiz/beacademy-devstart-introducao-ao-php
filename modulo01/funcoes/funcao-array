@@ -1,0 +1,14 @@
+<?php
+
+declare(strict_types=1);
+
+function mostrarNomes (array $nome):void
+{
+    foreach ($nome as $cadanome){
+        echo "Nome: ".$cadanome.PHP_EOL;
+    }
+}
+
+mostrarNomes(['Joaquim', 'Luiza', 'Filomena']);
+
+mostrarNomes('teste');
